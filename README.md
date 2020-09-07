@@ -7,10 +7,12 @@ All You need to do:
 4. Start using compressor in your activity.
 
 **1. Copy JavaCompressor.kt to project**
+
 Copy JavaCompressor.kt from this [gist](https://gist.github.com/nareshkatta99/5fbe8a37799d5a48ea9de32af4a69ea9)
  to your package.
 
 **2. Add kotlin dependencies to ${PROJECT_DIR}/app/build.gradle**
+
 Make sure you applied the kotlin-android plugin
 ```
     apply plugin: 'kotlin-android'
@@ -36,6 +38,7 @@ You have to add id.zelory:compressor any way
     implementation 'id.zelory:compressor:3.0.0'
 ```
 **3. Add kotlin dependencies to ${PROJECT_DIR}/build.gradle**
+
 Make sure you add kotlin to your project level gradle file.
 add these 2 lines to buildscript
 ```
@@ -52,6 +55,7 @@ to dependencies
 Thats it. That's all you need to do.
 
 **4. Example usage**
+
 Simple
 ```
             JavaCompressor.compress(this, selectedFile, new Callback(){
