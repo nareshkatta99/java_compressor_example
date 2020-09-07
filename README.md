@@ -19,11 +19,17 @@ Make sure you applied the kotlin-android plugin
 ```
 
 You have to add 
+
     org.jetbrains.kotlin:kotlin-stdlib
+
     org.jetbrains.kotlinx:kotlinx-coroutines-core
+
     org.jetbrains.kotlinx:kotlinx-coroutines-android
+
     androidx.lifecycle:lifecycle-extensions
+
     androidx.lifecycle:lifecycle-runtime-ktx
+
 libraries to dependencies
 
 ```
